@@ -1,4 +1,4 @@
-25643236472061547
+25644999160824306
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102773,6 +102773,13 @@ SAMTEC_FTSH-107-01-L-DV-K
 0
 14
 14
+footprints
+SON4_PTS526 SM15 SMTR2 LFS_CNK
+
+PTS526 SM15 SMTR2 LFS 
+0
+4
+4
 footprints
 SOT-363   US6_TOS
 

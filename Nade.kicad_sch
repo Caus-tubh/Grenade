@@ -8732,6 +8732,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 62.23) (xy 57.15 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81634cf-ecf1-46d0-a1b2-5ce10cd58402")
+	)
+	(wire
+		(pts
 			(xy 80.01 101.6) (xy 82.55 101.6)
 		)
 		(stroke
@@ -9039,16 +9049,6 @@
 			(type default)
 		)
 		(uuid "ca545ce0-1254-4388-b6e6-b390819a4e4d")
-	)
-	(wire
-		(pts
-			(xy 54.61 62.23) (xy 57.15 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cadf76fe-0d87-4ce4-8134-f5a1e7cc4cb2")
 	)
 	(wire
 		(pts
@@ -9840,7 +9840,7 @@
 		)
 		(uuid "9837fab6-6475-465d-aa62-4d8373506b1d")
 	)
-	(label "PA0"
+	(label "PB9"
 		(at 28.575 171.45 0)
 		(effects
 			(font
@@ -9860,7 +9860,17 @@
 		)
 		(uuid "a376aa98-65f4-4d1a-8c4d-08b90e1f7557")
 	)
-	(label "PA2"
+	(label "PA12"
+		(at 46.99 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a51b6938-abdf-4280-88d9-7884564a711c")
+	)
+	(label "PA0"
 		(at 353.695 39.37 0)
 		(effects
 			(font
@@ -9960,7 +9970,7 @@
 		)
 		(uuid "e755bc0d-dcfd-42e7-b683-63a929c40bca")
 	)
-	(label "PC2"
+	(label "PB15"
 		(at 88.9 171.45 0)
 		(effects
 			(font
@@ -10032,28 +10042,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PA12"
-		(shape input)
-		(at 54.61 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5146a891-cc6b-4df6-ac71-3fed1ab1a336")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.8472 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10237,6 +10225,129 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 186.69 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24df0cdb-a8d5-476c-969b-bfc34d255cb8")
+		(property "Netclass" "VDD"
+			(at 187.3885 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -30.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 214.63 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "359fe099-d085-43ee-96cd-0f170c46e58d")
+		(property "Netclass" "VDD"
+			(at 215.3285 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -2.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 171.45 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a4aac70-e8d5-4968-97b1-20b9286375da")
+		(property "Netclass" "VDD"
+			(at 172.1485 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 143.51 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a9c6329-0b32-486d-8629-b894ca2cc2b6")
+		(property "Netclass" "VDD"
+			(at 142.9385 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 147.32 39.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10257,6 +10368,68 @@
 		)
 		(property "Component Class" ""
 			(at -69.85 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 149.86 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba23db10-4c10-4864-99c9-578097416486")
+		(property "Netclass" "VDD"
+			(at 150.5585 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 187.96 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5376934-191b-4de4-976b-c76a5fcfcd06")
+		(property "Netclass" "VDD"
+			(at 188.6585 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -29.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12881,7 +13054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 228.6 86.36 0)
 			(effects
 				(font
@@ -13012,7 +13185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 204.47 109.22 0)
 			(effects
 				(font
@@ -13445,7 +13618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 220.98 91.44 0)
 			(effects
 				(font
@@ -14489,7 +14662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 154.94 105.41 0)
 			(effects
 				(font
