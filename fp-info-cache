@@ -1,4 +1,4 @@
-25644999160824306
+25652051106839494
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102711,6 +102711,27 @@ AMASS_XT60PW-M
 4
 4
 footprints
+ADXL373
+
+ADXL373BCCZ-RL7 
+0
+16
+16
+footprints
+CC-16-4_ADI-L
+
+ADXL373BCCZ-RL7 
+0
+16
+16
+footprints
+CC-16-4_ADI-M
+
+ADXL373BCCZ-RL7 
+0
+16
+16
+footprints
 GCT_MEM2085-00-115-00-A_REV0.2
 
 
@@ -102773,6 +102794,13 @@ SAMTEC_FTSH-107-01-L-DV-K
 0
 14
 14
+footprints
+SOIC127P600X175-8N
+MB85RS2MTYPNF-G-AWERE2--
+Integrated Circuit
+0
+8
+8
 footprints
 SON4_PTS526 SM15 SMTR2 LFS_CNK
 

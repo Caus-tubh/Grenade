@@ -11315,7 +11315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "footprints:SOIC127P600X175-8N"
 			(at 319.405 134.29 0)
 			(effects
 				(font
@@ -13287,7 +13287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 156.21 143.51 0)
 			(effects
 				(font
@@ -14052,7 +14052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 204.47 109.22 0)
 			(effects
 				(font
